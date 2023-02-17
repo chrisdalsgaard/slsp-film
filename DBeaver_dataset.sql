@@ -8,3 +8,4 @@ WHERE Name = 'B%';
 SELECT ART.Name, ART.ArtistId, ALB.Title
 FROM Artist as ART
 INNER JOIN Album as ALB ON ART.ArtistId = ALB.ArtistIde;
+
